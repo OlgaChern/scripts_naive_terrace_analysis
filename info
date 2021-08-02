@@ -1,0 +1,12 @@
+Here are the necessary settings:
+
+1. script-run-cov-to-TSC-for-taxa.sh
+	- specify: f_path
+
+2. script-split-space-into-terraces.sh 
+	- instal iqtree_terrace and add a binary with a path
+	- add a binary with a path for iqtree itself
+	- here you could change the trees to be used:
+		trees=$f_input/trees/all_trees_${taxa}
+
+
